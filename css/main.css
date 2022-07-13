@@ -76,11 +76,12 @@ header > img {
 header .info  {
   margin-left: 15px;
 }
-header .info span:first-of-type { 
+header .info h4 { 
   display: block;
   color:hsl(0, 0%, 100%);
+  margin: 0;
 }
-header .info  span:last-child { 
+header .info  span { 
   font-size: 13px;
   color: hsl(0 0% 100% /50%);
 }
@@ -92,12 +93,12 @@ section {
 p {
   color: hsl(0 0% 100% /70%);
 }
-.three header .info span:first-of-type,
-.five header .info span:first-of-type {
+.three header .info h4,
+.five header h4 {
   color:hsl(217, 19%, 35%) ;
 }
-.three header .info span:last-of-type,
-.five header .info span:last-of-type,
+.three header .info span,
+.five header .info span,
 .three p ,
 .five p {
   color:#777 ;
